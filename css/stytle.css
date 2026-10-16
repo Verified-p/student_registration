@@ -10,6 +10,7 @@ nav{
     background-color: #007bff;
     padding: 10px;
     align-items: center;
+    
 }
 
 nav ul{
@@ -142,9 +143,6 @@ h2{
     border-radius: 8px;
     border: 1px solid #ddd;
     margin-bottom: 10px;
-
-
-
 }
 
 .form-group button{
@@ -164,5 +162,55 @@ h2{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+}
+
+
+.hero-image{
+    background-image: url("../images/imag.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    padding: 10px;
+    position: relative;
 
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero-text{
+    position: absolute;
+    bottom: 350px;
+    left: 2px;
+    padding: 10px;
+}
+
+.hero-text h1{
+    font-size: 40px;
+    
+}
+.hero-text p{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+#reg{
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: #ddd;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+#reg a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
